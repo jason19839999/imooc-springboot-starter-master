@@ -124,7 +124,10 @@ public class UserServiceImpl implements UserService {
 		
 		return null;
 	}
-	
+
+	//		事务的隔离级别：一般DEFAULT
+  //		事务的传播行为： REQUIRED→insert,update  SUPPORTS→select
+
 	@Override
 	@Transactional(propagation = Propagation.REQUIRED)
 	public void saveUserTransactional(SysUser user) {
@@ -137,3 +140,5 @@ public class UserServiceImpl implements UserService {
 		userMapper.updateByPrimaryKeySelective(user);
 	}
 }
+
+
