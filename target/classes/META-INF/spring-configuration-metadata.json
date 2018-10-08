@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.imooc.pojo.Resource",
+      "name": "com.imooc.opensource",
+      "type": "com.imooc.pojo.Resource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.imooc.pojo.Resource",
+      "name": "com.imooc.opensource.language",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.pojo.Resource",
+      "name": "com.imooc.opensource.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.pojo.Resource",
+      "name": "com.imooc.opensource.website",
+      "type": "java.lang.String"
+    }
+  ]
+}
